@@ -1,9 +1,6 @@
-﻿  Config_game_param.cpp
-C:\Users\linec\source\repos\TankDendy\TankDendy\Config_game_param.cpp(13,28): warning C4305: 'initializing': truncation from 'double' to 'float'
-  Map.cpp
-C:\Users\linec\source\repos\TankDendy\TankDendy\Config_game_param.cpp(13,28): warning C4305: 'initializing': truncation from 'double' to 'float'
+﻿  Map.cpp
+C:\Users\linec\source\repos\TankDendy\TankDendy\Config_game_param.cpp(12,30): warning C4305: 'initializing': truncation from 'double' to 'float'
 C:\Users\linec\source\repos\TankDendy\TankDendy\Map.cpp(59,29): warning C4305: 'argument': truncation from 'double' to 'float'
 C:\Users\linec\source\repos\TankDendy\TankDendy\Map.cpp(72,45): warning C4244: '=': conversion from 'sf::Int64' to 'size_t', possible loss of data
 C:\Users\linec\source\repos\TankDendy\TankDendy\Map.cpp(119,45): warning C4244: '=': conversion from 'sf::Int64' to 'size_t', possible loss of data
-  Generating Code...
   TankDendy.vcxproj -> C:\Users\linec\source\repos\TankDendy\Debug\TankDendy.exe

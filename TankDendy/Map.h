@@ -12,6 +12,7 @@ using namespace std;
 class Map
 {
 private:
+	
 	Texture menuTexture1;
 	Texture menuTexture2;
 	Texture pointer;

@@ -159,9 +159,12 @@ void Map::updatebullet(Clock& _time, RenderWindow& window)
 }
 void Map::windowOpen()
 {
+
 	RenderWindow window(VideoMode(H, W), "Tank");
+
 	while (window.isOpen())
 	{
+	
 		Event event;
 		while (window.pollEvent(event))
 		{
@@ -185,6 +188,7 @@ void Map::windowOpen()
 
 		if (pointer_s.getPosition().y == 130 && Keyboard::isKeyPressed(Keyboard::Enter))
 		{
+
 			Game_window(window);
 		}
 
@@ -198,7 +202,10 @@ void Map::windowOpen()
 void Map::Game_window(RenderWindow& window)
 {
 	Clock time;
-
+	Sound sound;
+	SoundBuffer buffer;
+	buffer.loadFromFile("Game_resource/bah3.ogg");
+	sound.setBuffer(buffer);
 	while (window.isOpen())
 	{
 		Event event;
@@ -212,6 +219,7 @@ void Map::Game_window(RenderWindow& window)
 					shoot_two_player1 = true;
 					shoot_two_player2 = false;
 					shoot(t1.getcnt(), t1, window);
+					sound.play();
 				}
 			if (event.type == Event::KeyPressed)
 				if (event.key.code == Keyboard::Q)
@@ -220,6 +228,8 @@ void Map::Game_window(RenderWindow& window)
 					shoot_two_player1 = false;
 
 					shoot2(t2.getcnt(), t2, window);
+					sound.play();
+
 				}
 		}
 		hit_the_wall(t1);
@@ -285,7 +295,7 @@ void Map::input_player2(RenderWindow& window)
 	{
 		if (one != true)
 			t2.Right(speedTank);
-		t2.setCnt(1);
+		t2.setCnt(1); 
 
 	}
 	else if (Keyboard::isKeyPressed(Keyboard::A))

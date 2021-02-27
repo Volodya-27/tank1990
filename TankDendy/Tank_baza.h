@@ -8,6 +8,7 @@ using namespace std;
 class Tank_Baza
 {
 protected:
+	
 	Vector2f position;
 	Texture texture_tank;
 	Sprite sprite_tank;
