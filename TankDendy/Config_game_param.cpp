@@ -10,7 +10,7 @@ const int W = 800;
 //param Tank
 const string up = "Game_resource/up.png";
 const string right_ = "Game_resource/right.png";
-const float speedTank = 0.09;
+const float speedTank = 0.9;
 const int wight_lenght = 80; //size sprite
 
 
