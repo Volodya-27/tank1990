@@ -1,0 +1,25 @@
+﻿  Bullet.cpp
+C:\Users\linec\source\repos\TankDendy\TankDendy\Config_game_param.cpp(13,29): warning C4305: 'initializing': truncation from 'double' to 'float'
+C:\Users\linec\source\repos\TankDendy\TankDendy\Bullet.cpp(24,33): warning C4305: 'argument': truncation from 'double' to 'float'
+  Config_game_param.cpp
+C:\Users\linec\source\repos\TankDendy\TankDendy\Config_game_param.cpp(13,29): warning C4305: 'initializing': truncation from 'double' to 'float'
+  Map.cpp
+C:\Users\linec\source\repos\TankDendy\TankDendy\Config_game_param.cpp(13,29): warning C4305: 'initializing': truncation from 'double' to 'float'
+C:\Users\linec\source\repos\TankDendy\TankDendy\Map.cpp(59,29): warning C4305: 'argument': truncation from 'double' to 'float'
+C:\Users\linec\source\repos\TankDendy\TankDendy\Map.cpp(72,45): warning C4244: '=': conversion from 'sf::Int64' to 'size_t', possible loss of data
+C:\Users\linec\source\repos\TankDendy\TankDendy\Map.cpp(119,45): warning C4244: '=': conversion from 'sf::Int64' to 'size_t', possible loss of data
+  Source.cpp
+C:\Users\linec\source\repos\TankDendy\TankDendy\Config_game_param.cpp(13,29): warning C4305: 'initializing': truncation from 'double' to 'float'
+  Tank_baza.cpp
+C:\Users\linec\source\repos\TankDendy\TankDendy\Config_game_param.cpp(13,29): warning C4305: 'initializing': truncation from 'double' to 'float'
+  Tank_player.cpp
+C:\Users\linec\source\repos\TankDendy\TankDendy\Config_game_param.cpp(13,29): warning C4305: 'initializing': truncation from 'double' to 'float'
+C:\Users\linec\source\repos\TankDendy\TankDendy\Tank_player.cpp(37,31): warning C4305: 'argument': truncation from 'double' to 'float'
+C:\Users\linec\source\repos\TankDendy\TankDendy\Tank_player.cpp(45,31): warning C4305: 'argument': truncation from 'double' to 'float'
+C:\Users\linec\source\repos\TankDendy\TankDendy\Tank_player.cpp(53,31): warning C4305: 'argument': truncation from 'double' to 'float'
+C:\Users\linec\source\repos\TankDendy\TankDendy\Tank_player.cpp(62,31): warning C4305: 'argument': truncation from 'double' to 'float'
+  Generating code
+  Previous IPDB not found, fall back to full compilation.
+  All 242 functions were compiled because no usable IPDB/IOBJ from previous compilation was found.
+  Finished generating code
+  TankDendy.vcxproj -> C:\Users\linec\source\repos\TankDendy\Release\TankDendy.exe
